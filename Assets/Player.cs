@@ -11,7 +11,7 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        rb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -27,4 +27,3 @@ public class Player : MonoBehaviour
         }
     }
 }
-// test internet, to be deleted...
