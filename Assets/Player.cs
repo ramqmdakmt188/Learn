@@ -2,13 +2,11 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public Rigidbody2D rb;
+    private Rigidbody2D rb;
 
-    public float xInput;
-    public float moveSpeed = 10;
-    public float jumpForce = 7;
-
-
+    [SerializeField] private float xInput;
+    [SerializeField] private float moveSpeed = 10;
+    private float jumpForce = 7;
 
     // Start is called before the first frame update
     void Start()
